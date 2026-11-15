@@ -1,18 +1,203 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Закрывающий тег</title>
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/variables.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/animations.css" />
-  </head>
-  <body class="page">
-    <header class="header"></header>
-    <main></main>
-    <script src="./scripts/like.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Рефлексия о пути обучения вёрстке — проект «Закрывающий тег».">
+  <meta name="theme-color" content="#e7e7e7">
+  <title>Закрывающий тег — мой путь в вёрстке</title>
+  <link rel="icon" href="./images/favicon.ico" sizes="any">
+  <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
+  <link rel="stylesheet" href="./fonts/fonts.css">
+  <link rel="stylesheet" href="./styles/variables.css">
+  <link rel="stylesheet" href="./styles/globals.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/animations.css">
+</head>
+<body class="page">
+  <header class="header">
+    <p class="header__logo">&lt;/HTML&gt;</p>
+    <h1 class="header__title">Закрывающий тег</h1>
+    <p class="header__subtitle">Мой путь в обучении</p>
+  </header>
+  <main class="main content-width">
+    <section class="cards" aria-label="Этапы обучения">
+      <article class="card">
+      <h2 class="card__title">1. Первые шаги</h2>
+      <div class="card__image-wrap">
+        <img class="card__image filter-contrast" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=85" alt="Иллюстрация к этапу: первые шаги" loading="lazy">
+        <span class="card__label" aria-hidden="true">#Любопытство</span>
+      </div>
+      <div class="card__content">
+        <div><p>Я начинал с ощущения, что вёрстка — это набор непонятных правил. Самым важным оказалось просто открыть редактор и сделать первый шаг. Ошибки не исчезли, но перестали казаться доказательством, что у меня не получится.</p></div>
+        <div class="card__footer">
+          <button class="card__icon-button" type="button" aria-label="Поставить отметку «Нравится»"><svg class="like-icon" viewBox="0 0 27 24" aria-hidden="true">
+      <g class="heart">
+        <path class="core" d="M13.5 21.2 3.2 11.4C-2 5.8 5.3-1 10.2 4.1l3.3 3.4 3.3-3.4C21.7-1 29 5.8 23.8 11.4Z" fill="transparent"/>
+        <path class="main-body" d="M13.5 21.2 3.2 11.4C-2 5.8 5.3-1 10.2 4.1l3.3 3.4 3.3-3.4C21.7-1 29 5.8 23.8 11.4Z" fill="transparent"/>
+        <path class="contour" d="M13.5 22.8 2.2 12C-4 5.7 4.8-2.7 11 3.1l2.5 2.4L16 3.1c6.2-5.8 15 2.6 8.8 8.9Zm0-2.2 9.8-9.8c4.3-4.4-2.1-10.7-6.2-6.7l-3.6 3.5-3.6-3.5C5.8-.6-.6 5.7 3.7 10.8Z" fill="var(--contour-color)"/>
+      </g>
+      <path class="sparks" d="M2 2 0 0l-1 1 2 2Zm23 1 2-2-1-1-2 2ZM1 18l-2 1 1 1 2-1Zm25 0 2 1-1 1-2-1Z"/>
+    </svg></button>
+          <button class="button card__like-button" type="button"><span class="button__text">Like</span></button>
+        </div>
+      </div>
+    </article>\n<article class="card">
+      <h2 class="card__title">2. Знакомство с HTML</h2>
+      <div class="card__image-wrap">
+        <img class="card__image filter-warm" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85" alt="Иллюстрация к этапу: знакомство с html" loading="lazy">
+        <span class="card__label" aria-hidden="true">#Структура</span>
+      </div>
+      <div class="card__content">
+        <div><p>Когда разобрался с тегами, страница перестала быть магией. Я увидел, что за каждым блоком стоит понятная структура, а аккуратная разметка экономит время на следующих этапах.</p></div>
+        <div class="card__footer">
+          <button class="card__icon-button" type="button" aria-label="Поставить отметку «Нравится»"><svg class="like-icon" viewBox="0 0 27 24" aria-hidden="true">
+      <g class="heart">
+        <path class="core" d="M13.5 21.2 3.2 11.4C-2 5.8 5.3-1 10.2 4.1l3.3 3.4 3.3-3.4C21.7-1 29 5.8 23.8 11.4Z" fill="transparent"/>
+        <path class="main-body" d="M13.5 21.2 3.2 11.4C-2 5.8 5.3-1 10.2 4.1l3.3 3.4 3.3-3.4C21.7-1 29 5.8 23.8 11.4Z" fill="transparent"/>
+        <path class="contour" d="M13.5 22.8 2.2 12C-4 5.7 4.8-2.7 11 3.1l2.5 2.4L16 3.1c6.2-5.8 15 2.6 8.8 8.9Zm0-2.2 9.8-9.8c4.3-4.4-2.1-10.7-6.2-6.7l-3.6 3.5-3.6-3.5C5.8-.6-.6 5.7 3.7 10.8Z" fill="var(--contour-color)"/>
+      </g>
+      <path class="sparks" d="M2 2 0 0l-1 1 2 2Zm23 1 2-2-1-1-2 2ZM1 18l-2 1 1 1 2-1Zm25 0 2 1-1 1-2-1Z"/>
+    </svg></button>
+          <button class="button card__like-button" type="button"><span class="button__text">Like</span></button>
+        </div>
+      </div>
+    </article>\n<article class="card">
+      <h2 class="card__title">3. Первые стили</h2>
+      <div class="card__image-wrap">
+        <img class="card__image filter-cool" src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=85" alt="Иллюстрация к этапу: первые стили" loading="lazy">
+        <span class="card__label" aria-hidden="true">#Азарт</span>
+      </div>
+      <div class="card__content">
+        <div><p>CSS сначала казался бесконечным списком свойств. Постепенно я начал замечать закономерности: отступы, размеры и цвета складываются в систему. Особенно приятно — увидеть, как сухая разметка оживает.</p></div>
+        <div class="card__footer">
+          <button class="card__icon-button" type="button" aria-label="Поставить отметку «Нравится»"><svg class="like-icon" viewBox="0 0 27 24" aria-hidden="true">
+      <g class="heart">
+        <path class="core" d="M13.5 21.2 3.2 11.4C-2 5.8 5.3-1 10.2 4.1l3.3 3.4 3.3-3.4C21.7-1 29 5.8 23.8 11.4Z" fill="transparent"/>
+        <path class="main-body" d="M13.5 21.2 3.2 11.4C-2 5.8 5.3-1 10.2 4.1l3.3 3.4 3.3-3.4C21.7-1 29 5.8 23.8 11.4Z" fill="transparent"/>
+        <path class="contour" d="M13.5 22.8 2.2 12C-4 5.7 4.8-2.7 11 3.1l2.5 2.4L16 3.1c6.2-5.8 15 2.6 8.8 8.9Zm0-2.2 9.8-9.8c4.3-4.4-2.1-10.7-6.2-6.7l-3.6 3.5-3.6-3.5C5.8-.6-.6 5.7 3.7 10.8Z" fill="var(--contour-color)"/>
+      </g>
+      <path class="sparks" d="M2 2 0 0l-1 1 2 2Zm23 1 2-2-1-1-2 2ZM1 18l-2 1 1 1 2-1Zm25 0 2 1-1 1-2-1Z"/>
+    </svg></button>
+          <button class="button card__like-button" type="button"><span class="button__text">Like</span></button>
+        </div>
+      </div>
+    </article>\n<article class="card">
+      <h2 class="card__title">4. Борьба с адаптивом</h2>
+      <div class="card__image-wrap">
+        <img class="card__image filter-muted" src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=85" alt="Иллюстрация к этапу: борьба с адаптивом" loading="lazy">
+        <span class="card__label" aria-hidden="true">#Терпение</span>
+      </div>
+      <div class="card__content">
+        <div><p>На разных экранах всё неожиданно начинало жить своей жизнью. Пришлось учиться проверять гипотезы, пользоваться инструментами разработчика и не чинить всё случайными пикселями.</p></div>
+        <div class="card__footer">
+          <button class="card__icon-button" type="button" aria-label="Поставить отметку «Нравится»"><svg class="like-icon" viewBox="0 0 27 24" aria-hidden="true">
+      <g class="heart">
+        <path class="core" d="M13.5 21.2 3.2 11.4C-2 5.8 5.3-1 10.2 4.1l3.3 3.4 3.3-3.4C21.7-1 29 5.8 23.8 11.4Z" fill="transparent"/>
+        <path class="main-body" d="M13.5 21.2 3.2 11.4C-2 5.8 5.3-1 10.2 4.1l3.3 3.4 3.3-3.4C21.7-1 29 5.8 23.8 11.4Z" fill="transparent"/>
+        <path class="contour" d="M13.5 22.8 2.2 12C-4 5.7 4.8-2.7 11 3.1l2.5 2.4L16 3.1c6.2-5.8 15 2.6 8.8 8.9Zm0-2.2 9.8-9.8c4.3-4.4-2.1-10.7-6.2-6.7l-3.6 3.5-3.6-3.5C5.8-.6-.6 5.7 3.7 10.8Z" fill="var(--contour-color)"/>
+      </g>
+      <path class="sparks" d="M2 2 0 0l-1 1 2 2Zm23 1 2-2-1-1-2 2ZM1 18l-2 1 1 1 2-1Zm25 0 2 1-1 1-2-1Z"/>
+    </svg></button>
+          <button class="button card__like-button" type="button"><span class="button__text">Like</span></button>
+        </div>
+      </div>
+    </article>\n<article class="card">
+      <h2 class="card__title">5. Гибкая вёрстка</h2>
+      <div class="card__image-wrap">
+        <img class="card__image filter-dream" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=85" alt="Иллюстрация к этапу: гибкая вёрстка" loading="lazy">
+        <span class="card__label" aria-hidden="true">#Уверенность</span>
+      </div>
+      <div class="card__content">
+        <div><p>Grid, Flexbox и резиновые размеры помогли перестать подгонять каждый элемент вручную. Теперь я чаще думаю о поведении интерфейса на разных ширинах, а не только о том, как он выглядит на одном экране.</p></div>
+        <div class="card__footer">
+          <button class="card__icon-button" type="button" aria-label="Поставить отметку «Нравится»"><svg class="like-icon" viewBox="0 0 27 24" aria-hidden="true">
+      <g class="heart">
+        <path class="core" d="M13.5 21.2 3.2 11.4C-2 5.8 5.3-1 10.2 4.1l3.3 3.4 3.3-3.4C21.7-1 29 5.8 23.8 11.4Z" fill="transparent"/>
+        <path class="main-body" d="M13.5 21.2 3.2 11.4C-2 5.8 5.3-1 10.2 4.1l3.3 3.4 3.3-3.4C21.7-1 29 5.8 23.8 11.4Z" fill="transparent"/>
+        <path class="contour" d="M13.5 22.8 2.2 12C-4 5.7 4.8-2.7 11 3.1l2.5 2.4L16 3.1c6.2-5.8 15 2.6 8.8 8.9Zm0-2.2 9.8-9.8c4.3-4.4-2.1-10.7-6.2-6.7l-3.6 3.5-3.6-3.5C5.8-.6-.6 5.7 3.7 10.8Z" fill="var(--contour-color)"/>
+      </g>
+      <path class="sparks" d="M2 2 0 0l-1 1 2 2Zm23 1 2-2-1-1-2 2ZM1 18l-2 1 1 1 2-1Zm25 0 2 1-1 1-2-1Z"/>
+    </svg></button>
+          <button class="button card__like-button" type="button"><span class="button__text">Like</span></button>
+        </div>
+      </div>
+    </article>\n<article class="card">
+      <h2 class="card__title">6. Интерактивность</h2>
+      <div class="card__image-wrap">
+        <img class="card__image filter-night" src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=85" alt="Иллюстрация к этапу: интерактивность" loading="lazy">
+        <span class="card__label" aria-hidden="true">#Интерес</span>
+      </div>
+      <div class="card__content">
+        <div><p>Кнопки, состояния и небольшие сценарии добавили странице характера. Я понял, что хороший интерфейс — это не только картинка, но и понятная реакция на действия человека.</p></div>
+        <div class="card__footer">
+          <button class="card__icon-button" type="button" aria-label="Поставить отметку «Нравится»"><svg class="like-icon" viewBox="0 0 27 24" aria-hidden="true">
+      <g class="heart">
+        <path class="core" d="M13.5 21.2 3.2 11.4C-2 5.8 5.3-1 10.2 4.1l3.3 3.4 3.3-3.4C21.7-1 29 5.8 23.8 11.4Z" fill="transparent"/>
+        <path class="main-body" d="M13.5 21.2 3.2 11.4C-2 5.8 5.3-1 10.2 4.1l3.3 3.4 3.3-3.4C21.7-1 29 5.8 23.8 11.4Z" fill="transparent"/>
+        <path class="contour" d="M13.5 22.8 2.2 12C-4 5.7 4.8-2.7 11 3.1l2.5 2.4L16 3.1c6.2-5.8 15 2.6 8.8 8.9Zm0-2.2 9.8-9.8c4.3-4.4-2.1-10.7-6.2-6.7l-3.6 3.5-3.6-3.5C5.8-.6-.6 5.7 3.7 10.8Z" fill="var(--contour-color)"/>
+      </g>
+      <path class="sparks" d="M2 2 0 0l-1 1 2 2Zm23 1 2-2-1-1-2 2ZM1 18l-2 1 1 1 2-1Zm25 0 2 1-1 1-2-1Z"/>
+    </svg></button>
+          <button class="button card__like-button" type="button"><span class="button__text">Like</span></button>
+        </div>
+      </div>
+    </article>\n<article class="card">
+      <h2 class="card__title">7. Анимации</h2>
+      <div class="card__image-wrap">
+        <img class="card__image filter-soft" src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=85" alt="Иллюстрация к этапу: анимации" loading="lazy">
+        <span class="card__label" aria-hidden="true">#Вдохновение</span>
+      </div>
+      <div class="card__content">
+        <div><p>Анимация научила меня ценить детали и чувство меры. Даже небольшое движение может подсказать пользователю, что произошло, если оно помогает смыслу, а не отвлекает от него.</p></div>
+        <div class="card__footer">
+          <button class="card__icon-button" type="button" aria-label="Поставить отметку «Нравится»"><svg class="like-icon" viewBox="0 0 27 24" aria-hidden="true">
+      <g class="heart">
+        <path class="core" d="M13.5 21.2 3.2 11.4C-2 5.8 5.3-1 10.2 4.1l3.3 3.4 3.3-3.4C21.7-1 29 5.8 23.8 11.4Z" fill="transparent"/>
+        <path class="main-body" d="M13.5 21.2 3.2 11.4C-2 5.8 5.3-1 10.2 4.1l3.3 3.4 3.3-3.4C21.7-1 29 5.8 23.8 11.4Z" fill="transparent"/>
+        <path class="contour" d="M13.5 22.8 2.2 12C-4 5.7 4.8-2.7 11 3.1l2.5 2.4L16 3.1c6.2-5.8 15 2.6 8.8 8.9Zm0-2.2 9.8-9.8c4.3-4.4-2.1-10.7-6.2-6.7l-3.6 3.5-3.6-3.5C5.8-.6-.6 5.7 3.7 10.8Z" fill="var(--contour-color)"/>
+      </g>
+      <path class="sparks" d="M2 2 0 0l-1 1 2 2Zm23 1 2-2-1-1-2 2ZM1 18l-2 1 1 1 2-1Zm25 0 2 1-1 1-2-1Z"/>
+    </svg></button>
+          <button class="button card__like-button" type="button"><span class="button__text">Like</span></button>
+        </div>
+      </div>
+    </article>\n<article class="card">
+      <h2 class="card__title">8. Сегодня</h2>
+      <div class="card__image-wrap">
+        <img class="card__image filter-memory" src="https://images.unsplash.com/photo-1516321310764-8d8d8f1c7b55?auto=format&fit=crop&w=1200&q=85" alt="Иллюстрация к этапу: сегодня" loading="lazy">
+        <span class="card__label" aria-hidden="true">#Готов продолжать</span>
+      </div>
+      <div class="card__content">
+        <div><p>Я ещё не знаю всего — и это нормально. Зато теперь умею искать ответы, разбивать большую задачу на шаги и доводить работу до результата. Этот проект — не финал, а точка, с которой хочется двигаться дальше.</p></div>
+        <div class="card__footer">
+          <button class="card__icon-button" type="button" aria-label="Поставить отметку «Нравится»"><svg class="like-icon" viewBox="0 0 27 24" aria-hidden="true">
+      <g class="heart">
+        <path class="core" d="M13.5 21.2 3.2 11.4C-2 5.8 5.3-1 10.2 4.1l3.3 3.4 3.3-3.4C21.7-1 29 5.8 23.8 11.4Z" fill="transparent"/>
+        <path class="main-body" d="M13.5 21.2 3.2 11.4C-2 5.8 5.3-1 10.2 4.1l3.3 3.4 3.3-3.4C21.7-1 29 5.8 23.8 11.4Z" fill="transparent"/>
+        <path class="contour" d="M13.5 22.8 2.2 12C-4 5.7 4.8-2.7 11 3.1l2.5 2.4L16 3.1c6.2-5.8 15 2.6 8.8 8.9Zm0-2.2 9.8-9.8c4.3-4.4-2.1-10.7-6.2-6.7l-3.6 3.5-3.6-3.5C5.8-.6-.6 5.7 3.7 10.8Z" fill="var(--contour-color)"/>
+      </g>
+      <path class="sparks" d="M2 2 0 0l-1 1 2 2Zm23 1 2-2-1-1-2 2ZM1 18l-2 1 1 1 2-1Zm25 0 2 1-1 1-2-1Z"/>
+    </svg></button>
+          <button class="button card__like-button" type="button"><span class="button__text">Like</span></button>
+        </div>
+      </div>
+    </article>
+    </section>
+  </main>
+  <footer class="footer content-width">
+    <button class="button save-button" type="button">
+      <svg class="button__icon" aria-hidden="true"><use href="./svg/floppy.svg#floppy"></use></svg>
+      <span class="button__text">Сохранить на память</span>
+    </button>
+  </footer>
+  <dialog class="dialog" aria-labelledby="dialog-title">
+    <svg class="dialog__icon" aria-hidden="true"><use href="./svg/floppy.svg#floppy"></use></svg>
+    <p class="dialog__text" id="dialog-title">Всё отлично!<br>Воспоминания сохранены.</p>
+    <button class="button dialog__button" type="button"><span class="button__text">ОК</span></button>
+  </dialog>
+  <script src="./scripts/like.js"></script>
+  <script src="./scripts/dialog.js"></script>
+</body>
 </html>
