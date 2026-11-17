@@ -139,6 +139,10 @@
   border-color: var(--accent-color);
 }
 
+.card__like-button {
+  min-width: 130px;
+}
+
 .button {
   position: relative;
   display: inline-flex;
@@ -148,7 +152,7 @@
   min-block-size: 38px;
   padding: 8px 14px;
   overflow: hidden;
-  border: 2px solid currentColor;
+  border: 2px solid var(--accent-color);
   background: var(--button-background);
   color: var(--button-text-color);
   font: 400 14px/1 var(--accent-font);
@@ -273,10 +277,10 @@
   inline-size: 100%;
 }
 
-.footer {
+.save-action {
   display: flex;
   justify-content: center;
-  padding-block: 0 100px;
+  padding-block: 50px 0;
 }
 
 .save-button {
@@ -289,7 +293,7 @@
     margin-block: 0 100px;
   }
 
-  .footer {
+  .save-action {
     padding-inline: 14px;
   }
 
